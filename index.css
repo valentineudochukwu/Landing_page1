@@ -116,12 +116,10 @@ header{position: sticky;
           color: white;
           padding: 20px;
 }
-.taxt-text2{display: none;
-
+.tax-text2>h1{display: none;
 }
 .taxcard-container{display: flex;
                    justify-content: space-around;
-            
 }
 .box1{background-image: url(Assets/post1.jpg);
       height: 300px;
@@ -217,12 +215,10 @@ header{position: sticky;
 }
 
 
-
-
 /* contact container */
 .contact-container{padding: 50px;
                    background-size: cover;
-                   background-image: url(Assets/contact-cover..jpg);
+                   background-image: url(Assets/contact-cover.1\ \(1\).jpg);
 }
 .contact-text{padding: 5px;
 }
@@ -332,10 +328,12 @@ header{position: sticky;
       margin: 20px;
 }
 
-/* tax-box */
-.taxcard-container{flex-direction: column;       
+/* tax-box */ 
+.taxcard-container{flex-direction: column;
+}    
+.tax-text2>h1{display: unset;
 }
-.taxt-text2{display: unset;
+.tax-text>p{display: none;
 }
 .tax-text>h1{display: none;}
 .box1{margin: 10px;}
